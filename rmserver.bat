@@ -1,0 +1,1 @@
+php vendor/takielias/codeigniter-websocket/install.php --app_path=application

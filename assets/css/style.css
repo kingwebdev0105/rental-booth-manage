@@ -1,0 +1,718 @@
+/*共通部分*/
+*,*::before,*::after{
+    box-sizing:border-box
+}
+body,h1,h2,h3,h4,p,figure,blockquote,dl,dd {
+    margin:0
+}
+
+body:-webkit-full-screen {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	margin: 0;
+}
+
+body:-moz-full-screen {
+	background-color: white;
+	margin: 0;
+}
+
+body:-ms-fullscreen {
+	background-color: white;
+	margin: 0;
+}
+
+/* W3C proposal that will eventually come in all browsers */
+body:fullscreen { 
+	background-color: white;
+	margin: 0;
+}
+
+body::backdrop {
+    background-color: white;
+}
+
+ul[role="list"],ol[role="list"] {
+    list-style:none
+}
+
+html:focus-within{
+    scroll-behavior:smooth
+}
+
+h1 {
+    background-color: lightblue;
+    text-align: center;
+    padding: 0.5em;
+}
+
+h2 {
+	color: ghostwhite;
+	text-align: center;
+	letter-spacing: 0.1em;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+footer {
+	background-color: darkgrey;
+	text-align:center; 
+	padding: 1em;
+	margin-top: 2em;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row;
+}
+
+.flex-row_align__center {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-flow: column;
+}
+
+.flex-col_align__center {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.margin-right-1em {
+    margin-right: 1em;
+}
+
+.margin-right-15em {
+    margin-right: 1.5em;
+}
+
+.margin-right-2em {
+    margin-right: 2em;
+}
+
+.margin-left-1em {
+    margin-left: 1em;
+}
+
+.margin-top-1em {
+    margin-top: 1em;
+}
+
+.margin-top-2em {
+    margin-top: 2em;
+}
+
+.margin-top-3em {
+    margin-top: 3em;
+}
+
+.margin-top-4em {
+    margin-top: 4em;
+}
+
+.margin-bottom-1em {
+    margin-bottom: 1em;
+}
+
+.margin-bottom-2em {
+    margin-bottom: 2em;
+}
+
+.padding-top-05em {
+    padding-top: 0.5em;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.tx-al-center {
+    text-align: center;
+}
+
+.outline-ghostwhite {
+    border: 1px solid darkgrey;
+}
+
+.flex-perfect-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-vertical-mode {
+    writing-mode: vertical-rl; 
+    text-orientation: upright;
+}
+
+.main-left {
+    width: 60%; 
+    margin-right: 1.5em;
+    justify-content: space-between;
+}
+
+.main-right {
+    background-color: #595757; 
+    width: 40%;
+}
+
+.premium-box {
+    margin-right: 1.5em;
+    width: 40%; 
+    background-color: #595757;
+    justify-content: space-evenly;    
+}
+
+.premium-box_left {
+    margin-left: 2.5em; 
+    width: 70%;
+}
+
+.exe-box {
+    padding: 2em 2em 0.5em 0; 
+    background-color: #595757;
+}
+
+.perabo-box {
+    padding: 2em; 
+}
+
+.perabo-row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+.perabo-pancel-left {
+    display: flex;
+    flex-flow: column;
+    margin-left: 2em; 
+    width: 70%;
+}
+
+.title_img {
+    width: 48px;
+    height: 48px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.wheelchair-seat {
+    width: 6.7em; 
+    height: 3.5em; 
+    background-color: white;
+    cursor: pointer;
+}
+
+.wheelchair-seat i {
+    font-weight: bold;
+    font-size:36px;
+}
+
+.wheelchair-seat span {
+    font-size: 1.5rem; 
+    margin-left: 0.5em;
+}
+
+.wheelchair-seat-sm {
+    width: 3.5em; 
+    height: 2.5em; 
+    background-color: white;
+}
+
+.wheelchair-seat-sm i {
+    font-weight: bold;
+    font-size:1.4rem;
+}
+
+.wheelchair-seat-sm span {
+    font-size: 1.3rem; 
+    margin-left: 0.1em;
+}
+
+.ticket-vendor-line__hori {
+    margin: 0.5em 2em 0 6em; 
+    text-align: center; 
+    border: 2px solid darkgray; 
+    padding: 0 1em;
+}
+
+.ticket-vendor-line__title {
+    letter-spacing: 1em; 
+    color: white;
+}
+
+.ticket-vendor-line__vert {
+    align-items: end; 
+    margin-left: 2em;
+}
+
+.ticket-vendor-line__vert__title {
+    padding: 5em 0.2em;
+    letter-spacing: 1em; 
+    color: white;
+    border: 1px solid darkgrey;
+}
+
+.status-panel {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+.status-panel__left {
+    border: 2px solid #595757; 
+    border-radius: 20px; 
+    padding: 2em 1em 1em; 
+    margin-right: 2em;
+}
+
+.output-title {
+    color: white; 
+    font-size: 16px;
+    letter-spacing: 0.2em;
+}
+
+.outdoor-vertical {
+    background-color: white; 
+    height: 4.5em; 
+    width: 1em;
+}
+
+.outdoor-horizon {
+    margin: 0.5em 0.5em 0; 
+    background-color: white; 
+    height: 1em; 
+    width: 6em;
+}
+
+.control-panel {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 30px;
+}
+
+.comment-title {
+    color: white;
+}
+
+.monitor-title {
+    font-size: 0.8rem; 
+    letter-spacing: 0.2em; 
+    text-align: center; 
+    color: white;
+}
+
+.soldout-title {
+	font-size: 1.2em;
+    margin-left: 1em;
+    color: #595757;
+    font-weight: bold;
+}
+
+.sold-pause-title {
+	font-size: 1em;
+    margin-left: 1em;
+    color: #595757;
+    font-weight: bold;
+}
+
+.seat-fee {
+	background-color: #595757;
+    border-radius: 5em;
+    padding: 0.5em 2em;
+    width: fit-content;
+}
+
+.seat-fee span {
+	font-size: 1.3rem;
+    color: white;
+}
+
+.floor-number {
+    font-size: 22px;
+    color: white;
+    padding: 0 0.3em 0.5em;
+}
+
+.fee-grid-col-1 {
+	background-color: #DBE6EE;
+    padding: 0.5em;
+    border: 1px solid grey;
+    width: 8.5em;
+}
+
+.fee-table-title {
+    font-size: 14px;
+}
+
+.fee-grid-col-2 {
+	background-color: #E8ECEE;
+    padding: 0.5em;
+    border: 1px solid grey;
+    width: 8.5em;
+}
+
+.fee-grid-col-3 {
+	background-color: #CED5DA;
+    padding: 1em 0.5em;
+    border: 1px solid grey;
+    width: 8.5em;
+}
+
+.fee-grid-col-3 span {
+    font-size: 2rem;
+    font-family: 'Gothic A1';
+}
+
+.fee-value {
+    font-size: 2rem; 
+    text-align: center;
+    font-family: 'Gothic A1';
+}
+
+.fee-unit {
+    position: relative; 
+    font-size: 16px; 
+    text-align: right;
+}
+
+.fee-table-text {
+    width: 100px; 
+    text-align: center;
+}
+
+.entrance-room-btn {
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 6em;
+    width: 20em;
+    background-color: yellow;
+    margin: 0 2em;
+    outline: 5px solid gray;
+}
+
+.entrance-room-btn span {
+    font-size: 2rem;
+}
+
+.leave-room-btn {
+    border: 3px solid yellow;
+    border-radius: 50px;
+    height: 6em;
+    width: 20em;
+    background-color: #595757;
+    color: white;
+    margin: 0 2em;
+    outline: 5px solid gray;
+}
+
+.leave-room-btn span {
+    font-size: 2rem;
+}
+
+.sale-cancel-btn {
+    padding: 0.4em 3em;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    background-color: red;
+    color: white;
+}
+
+#full-screen-btn {
+    padding: 4px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.room {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width:3em;
+	height:3.3em;
+	position:relative;
+	margin-bottom: 1em;
+    margin-left: 5px;
+    cursor: pointer;
+	background-color:white;
+    border-radius: 0 0 1em 1em;
+}
+
+/* .room:after {
+	position: absolute;
+    bottom: -0.5em;
+    left: 0;
+    right: 0;
+    height: 1em;
+    content: ' ';
+    border-radius: 50%;
+    background-color: white;
+} */
+
+.room span {
+	font-size: 22px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.room-xs {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.5em;
+    height: 3.5em;
+    background-color: white;
+    position: relative;
+    margin-bottom: 1.1em;
+    cursor: pointer;
+    border-radius: 0 0 1.5em 1.5em;
+}
+/* 
+.room-xs:after {
+	position: absolute;
+    bottom: -0.6em;
+    left: 0;
+    right: 0;
+    height: 1.5em;
+    background-color: white;
+    content: ' ';
+    border-radius: 50%;
+} */
+
+.room-xs span {
+	font-size: 22px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.room-xs-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2em;
+    height: 2em;
+    background-color: #595757;
+    position: relative;
+    margin-bottom: 0.5em;
+    margin-left: 5px;
+    border: 2px solid darkgray;
+    cursor: pointer;
+}
+
+.room-xs-sm:after {
+    position: absolute;
+    bottom: -0.5em;
+    left: 0;
+    right: 0;
+    height: 1em;
+    background-color: #595757;
+    content: ' ';
+    border-radius: 50%;
+    border-bottom: 2px solid darkgray;
+}
+
+.room-xs-sm span {
+    color:  white;
+    font-family: 'Gothic A1';
+}
+
+.room-entranced {
+    background-color: yellow;
+}
+
+.room-paused {
+    background-color: gray;
+}
+
+.room-paused span{
+    color: white;
+}
+
+.room-selected {
+    background-color: aqua;
+}
+
+.room-sm {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: white;
+    position: relative;
+    margin-bottom: 0.5em;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.room-sm:after {
+	position: absolute;
+    bottom: -0.3em;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    background-color: white;
+    content: ' ';
+    border-radius: 50%;
+}
+
+.room-sm span {
+    font-family: 'Gothic A1';
+}
+
+.room-soldout {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width:3em;
+	height:3em;
+	background-color:yellow;
+	position:relative;
+	margin-bottom: 0.5em;
+    margin-left: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.room-soldout:after {
+	position: absolute;
+    bottom: -0.5em;
+    left: 0;
+    right: 0;
+    height: 1em;
+    background-color: yellow;
+    content: ' ';
+    border-radius: 50%;
+    border-bottom: 1px solid grey;
+}
+
+.room-sale {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width:3em;
+	height:3em;
+	background-color:white;
+	position:relative;
+	margin-bottom: 0.5em;
+    margin-left: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.room-sale:after {
+	position: absolute;
+    bottom: -0.5em;
+    left: 0;
+    right: 0;
+    height: 1em;
+    background-color: white;
+    content: ' ';
+    border-radius: 50%;
+    border-bottom: 1px solid grey;
+}
+
+.room-sale-pause {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width:3em;
+	height:3.3em;
+	position:relative;
+	margin-bottom: 0.5em;
+    margin-left: 5px;
+    cursor: pointer;
+	background-color:lightgray;
+    border-radius: 0 0 1em 1em;
+    border: 1px solid gray;
+}
+
+/* Switch Button */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* Time and Fee Table */
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eee;
+  }
