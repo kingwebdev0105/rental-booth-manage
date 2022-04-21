@@ -513,10 +513,10 @@
 				<div style="margin-top: 1em;">
 					<label for="age">年齢</label>
 					<select name="age" id="age">
-						<option selected="selected"><?php echo "T-4(65-)" ?></option>
-						<option><?php echo "T-3(50-64)" ?></option>
-						<option><?php echo "T-2(30-49)" ?></option>
-						<option><?php echo "T-1(20-29)" ?></option>
+						<option selected="selected"><?php echo "T1(20-29)" ?></option>
+						<option><?php echo "T2(30-49)" ?></option>
+						<option><?php echo "T3(50-64)" ?></option>
+						<option><?php echo "T4(65-)" ?></option>
 					</select>
 				</div>
 

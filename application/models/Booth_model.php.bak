@@ -204,7 +204,7 @@ class Booth_model extends CI_Model
 
     public function set_sale_cancel_seat($booth_id)
     {
-        $format = "%Y-%m-%d %H:%i:%s";
+        $format = "%Y-%m-%d %h:%i:%s";
 
         $this->db->where('id', $booth_id);
         $this->db->update('tbl_booth', array('status' => '0'));

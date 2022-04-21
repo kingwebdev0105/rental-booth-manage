@@ -408,7 +408,7 @@ public function sendSeatCountAPIPost($_param)
 		if( $booth_id > 0 ) { 
 			$temp = array();
 			$temp = $this->booth_model->get_booth_box_name_by_booth_id($booth_id)[0];
-			$mode = $this->isPriceType(mdate("%Y-%m-%d %H:%i:%s"));
+			$mode = $this->isPriceType(mdate("%Y-%m-%d %Hh:%i:%s"));
 			
 			$data['box_name'] = $temp['box_name'];
 			$data['col_name'] = substr($temp['booth_name'], strpos($temp['booth_name'], '-') + 1, strlen($temp['booth_name']));
