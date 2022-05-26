@@ -225,37 +225,7 @@ class Adminbooth extends CI_Controller
 
 		$this->printReceipt($booth_id);
 
-		$params = array();
-		$params= array(
-           "s1" => $this->booth_model->remain_seat_count_by_box_id(0),
-           "s2" => $this->booth_model->remain_seat_count_by_box_id(1),
-           "s3" => $this->booth_model->remain_seat_count_by_box_id(2),
-           "s4" => $this->booth_model->remain_seat_count_by_box_id(3),
-           "token" => 'EoQPxwxAAf5m4j8AjJbPi7OamzuibjCO'
-        );
-
-		// var_dump($params);
-		// exit();
-
-		$this->sendSeatCountAPIPost($params);
-
 		echo json_encode($this->getRemainSeatsCount());
-	}
-
-	public function sendSeatCountAPIPost($_param) 
-	{
-			$url='https://www.peraboat-fukuoka.com/api/v1/seat?s1=' . $_param['s1'] . '&s2=' . $_param['s2'] . '&s3=' .$_param['s3'] . '&s4=' . $_param['s4'] . '&token=EoQPxwxAAf5m4j8AjJbPi7OamzuibjCO';
-
-      $ch = curl_init();
-      curl_setopt($ch, CURLOPT_URL,$url);
-      curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-      curl_setopt($ch, CURLOPT_POST, 1);
-
-      $output=curl_exec($ch);
-
-      curl_close($ch);
-
-      // return $postData;
 	}
 
 	public function	updateTimeTable() 

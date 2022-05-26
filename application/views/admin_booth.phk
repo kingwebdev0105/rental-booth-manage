@@ -1003,7 +1003,6 @@
 							},
 							dataType: 'json',
 							success: function(data) {
-								// console.log(data);
 								$(element).addClass("room-entranced");
 								$(element).removeClass("room-selected");
 								$(element).attr('status', 1);
