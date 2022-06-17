@@ -55,10 +55,16 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['add-transaction'] = 'Adminbooth/addTransaction';
 $route['cancel-transaction'] = 'Adminbooth/cancelTransaction';
+$route['update-transaction'] = 'Adminbooth/updateTransaction';
 $route['set-sale-pause'] = 'Adminbooth/setSalePauseSeat';
+$route['set-sale-all-seat'] = 'Adminbooth/setSaleAllSeat';
 $route['sale-seat-cancel'] = 'Adminbooth/setSaleCancelSeat';
-$route['user-booth'] = 'Adminbooth/userBooth';
+$route['user-booth-1'] = 'Adminbooth/userBooth1';
+$route['user-booth-2'] = 'Adminbooth/userBooth2';
+$route['user-booth-3'] = 'Adminbooth/userBooth3';
 $route['admin-booth'] = 'Adminbooth/index';
+$route['change-db-data'] = 'Adminbooth/changeDBDate';
+$route['get-transactions-date'] = 'Adminbooth/getTransactionFromDate';
 $route['csv-output'] = 'Adminbooth/outputCsv';
 $route['receipt-print'] = 'Adminbooth/printReceipt';
 $route['receipt-page/(:num)'] = 'Adminbooth/pageReceipt/$1';

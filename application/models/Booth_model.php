@@ -163,7 +163,7 @@ class Booth_model extends CI_Model
     }
 
     // cancel booth transactions
-    public function cancal_transaction($booth_id, $status)
+    public function cancel_transaction($booth_id, $status)
     {
         $format = "%Y-%m-%d %H:%i:%s";
         $this->db->where('id', $booth_id);
@@ -171,6 +171,18 @@ class Booth_model extends CI_Model
 
         $this->db->where('booth_id', $booth_id);
         $this->db->where('status', '1');
+        $this->db->where('is_deleted', '0');
+        $query = $this->db->update('tbl_transactions', array('exit_time' => @mdate($format), 'status' => $status));
+    }
+
+    // update booth transactions
+    public function upate_transaction_status($trac_id, $booth_id, $status)
+    {
+        $format = "%Y-%m-%d %H:%i:%s";
+        $this->db->where('id', $booth_id);
+        $query = $this->db->update('tbl_booth', array('status' => $status));
+
+        $this->db->where('id', $trac_id);
         $this->db->where('is_deleted', '0');
         $query = $this->db->update('tbl_transactions', array('exit_time' => @mdate($format), 'status' => $status));
     }
@@ -214,10 +226,28 @@ class Booth_model extends CI_Model
         $this->db->update('tbl_transactions', array('exit_time' => @mdate($format), 'status' => '0', 'is_deleted' => '1'));
     }
 
+    public function set_sale_all_seat()
+    {
+        $format = "%Y-%m-%d %H:%i:%s";
+
+        $this->db->where('status', '1');
+        $this->db->update('tbl_booth', array('status' => '0'));
+
+        $this->db->where('status', '1');
+        $this->db->update('tbl_transactions', array('exit_time' => @mdate($format), 'status' => '0', 'is_deleted' => '0'));   
+    }
+
     // get transaction list by datetime TO and FROM
     public function get_transcation_list_by_dates($from, $to)
     {
-        $query = $this->db->get_where('tbl_transactions', array('is_deleted' => '0', 'entrance_time>=' => $from, 'exit_time<=' <= $to));
+        $query = $this->db->get_where('tbl_transactions', array('is_deleted' => '0', 'entrance_time>=' => $from, 'exit_time<=' => $to));
+        return $query->result_array();
+    }
+
+    // get transaction list by datetime TO and FROM
+    public function get_transcation_list_by_date($from, $to)
+    {
+        $query = $this->db->get_where('tbl_transactions', array('is_deleted' => '0', 'entrance_time>=' => $from, 'entrance_time<=' => $to));
         return $query->result_array();
     }
 }

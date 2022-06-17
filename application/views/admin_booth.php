@@ -10,52 +10,52 @@
 						</div>
 
 						<div class="flex-row flex-perfect-center">
-							<div class="<?php echo $list_status[$list[0]["status"]] ?>" data-id="<?php echo $list[0]["id"]; ?>" status="<?php echo $list[0]["status"]; ?>"><span>T</span></div>
+							<div class="<?php echo $list_status[$list[0]["status"]] ?>" data-id="<?php echo $list[0]["id"]; ?>" seat-type="<?php echo $list[0]["box_id"] ?>" seat-type="<?php echo $list[0]["box_id"] ?>" status="<?php echo $list[0]["status"]; ?>"><span>T</span></div>
 							<div class="flex-perfect-center"><span class="floor-number">1</span></div>
-							<div class="<?php echo $list_status[$list[1]["status"]] ?> margin-right-15em" data-id="<?php echo $list[1]["id"]; ?>" status="<?php echo $list[1]["status"]; ?>"><span>U</span></div>
-							<div class="<?php echo $list_status[$list[2]["status"]] ?> margin-right-15em" data-id="<?php echo $list[2]["id"]; ?>" status="<?php echo $list[2]["status"]; ?>"><span>V</span></div>
-							<div class="<?php echo $list_status[$list[3]["status"]] ?>" data-id="<?php echo $list[3]["id"]; ?>" status="<?php echo $list[3]["status"]; ?>"><span>W</span></div>
+							<div class="<?php echo $list_status[$list[1]["status"]] ?> margin-right-15em" data-id="<?php echo $list[1]["id"]; ?>" seat-type="<?php echo $list[1]["box_id"] ?>" status="<?php echo $list[1]["status"]; ?>"><span>U</span></div>
+							<div class="<?php echo $list_status[$list[2]["status"]] ?> margin-right-15em" data-id="<?php echo $list[2]["id"]; ?>" seat-type="<?php echo $list[2]["box_id"] ?>" status="<?php echo $list[2]["status"]; ?>"><span>V</span></div>
+							<div class="<?php echo $list_status[$list[3]["status"]] ?>" data-id="<?php echo $list[3]["id"]; ?>" seat-type="<?php echo $list[3]["box_id"] ?>" status="<?php echo $list[3]["status"]; ?>"><span>W</span></div>
 							<div class="flex-perfect-center"><span class="floor-number">1</span></div>
-							<div class="<?php echo $list_status[$list[4]["status"]] ?>" data-id="<?php echo $list[4]["id"]; ?>" status="<?php echo $list[4]["status"]; ?>"><span>X</span></div>
+							<div class="<?php echo $list_status[$list[4]["status"]] ?>" data-id="<?php echo $list[4]["id"]; ?>" seat-type="<?php echo $list[4]["box_id"] ?>" status="<?php echo $list[4]["status"]; ?>"><span>X</span></div>
 						</div>
 
 						<div class="flex-row flex-perfect-center">
-							<div class="<?php echo $list_status[$list[5]["status"]] ?>" data-id="<?php echo $list[5]["id"]; ?>" status="<?php echo $list[5]["status"]; ?>"><span>T</span></div>
+							<div class="<?php echo $list_status[$list[5]["status"]] ?>" data-id="<?php echo $list[5]["id"]; ?>" seat-type="<?php echo $list[5]["box_id"] ?>" status="<?php echo $list[5]["status"]; ?>"><span>T</span></div>
 							<div class="flex-perfect-center"><span class="floor-number">2</span></div>
-							<div class="<?php echo $list_status[$list[6]["status"]] ?> margin-right-15em" data-id="<?php echo $list[6]["id"]; ?>" status="<?php echo $list[6]["status"]; ?>"><span>U</span></div>
-							<div class="<?php echo $list_status[$list[7]["status"]] ?> margin-right-15em" data-id="<?php echo $list[7]["id"]; ?>" status="<?php echo $list[7]["status"]; ?>"><span>V</span></div>
-							<div class="<?php echo $list_status[$list[8]["status"]] ?>" data-id="<?php echo $list[8]["id"]; ?>" status="<?php echo $list[8]["status"]; ?>"><span>W</span></div>
+							<div class="<?php echo $list_status[$list[6]["status"]] ?> margin-right-15em" data-id="<?php echo $list[6]["id"]; ?>" seat-type="<?php echo $list[6]["box_id"] ?>" status="<?php echo $list[6]["status"]; ?>"><span>U</span></div>
+							<div class="<?php echo $list_status[$list[7]["status"]] ?> margin-right-15em" data-id="<?php echo $list[7]["id"]; ?>" seat-type="<?php echo $list[7]["box_id"] ?>" status="<?php echo $list[7]["status"]; ?>"><span>V</span></div>
+							<div class="<?php echo $list_status[$list[8]["status"]] ?>" data-id="<?php echo $list[8]["id"]; ?>" seat-type="<?php echo $list[8]["box_id"] ?>" status="<?php echo $list[8]["status"]; ?>"><span>W</span></div>
 							<div class="flex-perfect-center"><span class="floor-number">2</span></div>
-							<div class="<?php echo $list_status[$list[9]["status"]] ?>" data-id="<?php echo $list[9]["id"]; ?>" status="<?php echo $list[9]["status"]; ?>"><span>X</span></div>
+							<div class="<?php echo $list_status[$list[9]["status"]] ?>" data-id="<?php echo $list[9]["id"]; ?>" seat-type="<?php echo $list[9]["box_id"] ?>" status="<?php echo $list[9]["status"]; ?>"><span>X</span></div>
 						</div>
 
 						<div class="margin-top-4em">
 							<div class="flex-row flex-perfect-center">
-								<div class="<?php echo $list_status[$list[10]["status"]] ?>" data-id="<?php echo $list[10]["id"]; ?>" status="<?php echo $list[10]["status"]; ?>"><span>T</span></div>
+								<div class="<?php echo $list_status[$list[10]["status"]] ?>" data-id="<?php echo $list[10]["id"]; ?>" seat-type="<?php echo $list[10]["box_id"] ?>" status="<?php echo $list[10]["status"]; ?>"><span>T</span></div>
 								<div class="flex-perfect-center"><span class="floor-number">3</span></div>
-								<div class="<?php echo $list_status[$list[11]["status"]] ?> margin-right-15em" data-id="<?php echo $list[11]["id"]; ?>" status="<?php echo $list[11]["status"]; ?>"><span>U</span></div>
-								<div class="<?php echo $list_status[$list[12]["status"]] ?> margin-right-15em" data-id="<?php echo $list[12]["id"]; ?>" status="<?php echo $list[12]["status"]; ?>"><span>V</span></div>
-								<div class="<?php echo $list_status[$list[13]["status"]] ?>" data-id="<?php echo $list[13]["id"]; ?>" status="<?php echo $list[13]["status"]; ?>"><span>W</span></div>
+								<div class="<?php echo $list_status[$list[11]["status"]] ?> margin-right-15em" data-id="<?php echo $list[11]["id"]; ?>" seat-type="<?php echo $list[11]["box_id"] ?>" status="<?php echo $list[11]["status"]; ?>"><span>U</span></div>
+								<div class="<?php echo $list_status[$list[12]["status"]] ?> margin-right-15em" data-id="<?php echo $list[12]["id"]; ?>" seat-type="<?php echo $list[12]["box_id"] ?>" status="<?php echo $list[12]["status"]; ?>"><span>V</span></div>
+								<div class="<?php echo $list_status[$list[13]["status"]] ?>" data-id="<?php echo $list[13]["id"]; ?>" seat-type="<?php echo $list[13]["box_id"] ?>" status="<?php echo $list[13]["status"]; ?>"><span>W</span></div>
 								<div class="flex-perfect-center"><span class="floor-number">3</span></div>
-								<div class="<?php echo $list_status[$list[14]["status"]] ?>" data-id="<?php echo $list[14]["id"]; ?>" status="<?php echo $list[14]["status"]; ?>"><span>X</span></div>
+								<div class="<?php echo $list_status[$list[14]["status"]] ?>" data-id="<?php echo $list[14]["id"]; ?>" seat-type="<?php echo $list[14]["box_id"] ?>" status="<?php echo $list[14]["status"]; ?>"><span>X</span></div>
 							</div>
 
 							<div class="flex-row flex-perfect-center">
-								<div class="<?php echo $list_status[$list[15]["status"]] ?>" data-id="<?php echo $list[15]["id"]; ?>" status="<?php echo $list[15]["status"]; ?>"><span>T</span></div>
+								<div class="<?php echo $list_status[$list[15]["status"]] ?>" data-id="<?php echo $list[15]["id"]; ?>" seat-type="<?php echo $list[15]["box_id"] ?>" status="<?php echo $list[15]["status"]; ?>"><span>T</span></div>
 								<div class="flex-perfect-center"><span class="floor-number">4</span></div>
-								<div class="<?php echo $list_status[$list[16]["status"]] ?> margin-right-15em" data-id="<?php echo $list[16]["id"]; ?>" status="<?php echo $list[16]["status"]; ?>"><span>U</span></div>
-								<div class="<?php echo $list_status[$list[17]["status"]] ?> margin-right-15em" data-id="<?php echo $list[17]["id"]; ?>" status="<?php echo $list[17]["status"]; ?>"><span>V</span></div>
-								<div class="<?php echo $list_status[$list[18]["status"]] ?>" data-id="<?php echo $list[18]["id"]; ?>" status="<?php echo $list[18]["status"]; ?>"><span>W</span></div>
+								<div class="<?php echo $list_status[$list[16]["status"]] ?> margin-right-15em" data-id="<?php echo $list[16]["id"]; ?>" seat-type="<?php echo $list[16]["box_id"] ?>" status="<?php echo $list[16]["status"]; ?>"><span>U</span></div>
+								<div class="<?php echo $list_status[$list[17]["status"]] ?> margin-right-15em" data-id="<?php echo $list[17]["id"]; ?>" seat-type="<?php echo $list[17]["box_id"] ?>" status="<?php echo $list[17]["status"]; ?>"><span>V</span></div>
+								<div class="<?php echo $list_status[$list[18]["status"]] ?>" data-id="<?php echo $list[18]["id"]; ?>" seat-type="<?php echo $list[18]["box_id"] ?>" status="<?php echo $list[18]["status"]; ?>"><span>W</span></div>
 								<div class="flex-perfect-center"><span class="floor-number">4</span></div>
-								<div class="<?php echo $list_status[$list[19]["status"]] ?>" data-id="<?php echo $list[19]["id"]; ?>" status="<?php echo $list[19]["status"]; ?>"><span>X</span></div>
+								<div class="<?php echo $list_status[$list[19]["status"]] ?>" data-id="<?php echo $list[19]["id"]; ?>" seat-type="<?php echo $list[19]["box_id"] ?>" status="<?php echo $list[19]["status"]; ?>"><span>X</span></div>
 							</div>
 
 							<div class="flex-row flex-perfect-center">
-								<div class="<?php echo $list_status[$list[20]["status"]] ?>" data-id="<?php echo $list[20]["id"]; ?>" status="<?php echo $list[20]["status"]; ?>"><span>T</span></div>
+								<div class="<?php echo $list_status[$list[20]["status"]] ?>" data-id="<?php echo $list[20]["id"]; ?>" seat-type="<?php echo $list[20]["box_id"] ?>" status="<?php echo $list[20]["status"]; ?>"><span>T</span></div>
 								<div class="flex-perfect-center"><span class="floor-number">5</span></div>
-								<div class="<?php echo $list_status[$list[21]["status"]] ?> margin-right-15em" data-id="<?php echo $list[21]["id"]; ?>" status="<?php echo $list[21]["status"]; ?>"><span>U</span></div>
-								<div class="<?php echo $list_status[$list[22]["status"]] ?> margin-right-15em" data-id="<?php echo $list[22]["id"]; ?>" status="<?php echo $list[22]["status"]; ?>"><span>V</span></div>
-								<div class="<?php echo $list_status[$list[23]["status"]] ?>" data-id="<?php echo $list[23]["id"]; ?>" status="<?php echo $list[23]["status"]; ?>"><span>W</span></div>
+								<div class="<?php echo $list_status[$list[21]["status"]] ?> margin-right-15em" data-id="<?php echo $list[21]["id"]; ?>" seat-type="<?php echo $list[21]["box_id"] ?>" status="<?php echo $list[21]["status"]; ?>"><span>U</span></div>
+								<div class="<?php echo $list_status[$list[22]["status"]] ?> margin-right-15em" data-id="<?php echo $list[22]["id"]; ?>" seat-type="<?php echo $list[22]["box_id"] ?>" status="<?php echo $list[22]["status"]; ?>"><span>V</span></div>
+								<div class="<?php echo $list_status[$list[23]["status"]] ?>" data-id="<?php echo $list[23]["id"]; ?>" seat-type="<?php echo $list[23]["box_id"] ?>" status="<?php echo $list[23]["status"]; ?>"><span>W</span></div>
 								<div class="flex-perfect-center"><span class="floor-number">5</span></div>
 								<div class="room" style="visibility: hidden;"><span>X</span></div>
 							</div>
@@ -95,56 +95,56 @@
 
 								<div>
 									<div class="flex-row">
-										<div class="<?php echo $list_status[$list[24]["status"]] ?>" data-id="<?php echo $list[24]["id"]; ?>" status="<?php echo $list[24]["status"]; ?>"><span>L</span></div>
+										<div class="<?php echo $list_status[$list[24]["status"]] ?>" data-id="<?php echo $list[24]["id"]; ?>" seat-type="<?php echo $list[24]["box_id"] ?>" status="<?php echo $list[24]["status"]; ?>"><span>L</span></div>
 										<div class="flex-perfect-center"><span class="floor-number">1</span></div>
-										<div class="<?php echo $list_status[$list[25]["status"]] ?>" data-id="<?php echo $list[25]["id"]; ?>" status="<?php echo $list[25]["status"]; ?>"><span>M</span></div>
-										<div class="<?php echo $list_status[$list[26]["status"]] ?> margin-right-15em" data-id="<?php echo $list[26]["id"]; ?>" status="<?php echo $list[26]["status"]; ?>"><span>N</span></div>
-										<div class="<?php echo $list_status[$list[27]["status"]] ?>" data-id="<?php echo $list[27]["id"]; ?>" status="<?php echo $list[27]["status"]; ?>"><span>O</span></div>
-										<div class="<?php echo $list_status[$list[28]["status"]] ?> margin-right-15em" data-id="<?php echo $list[28]["id"]; ?>" status="<?php echo $list[28]["status"]; ?>"><span>P</span></div>
-										<div class="<?php echo $list_status[$list[29]["status"]] ?>" data-id="<?php echo $list[29]["id"]; ?>" status="<?php echo $list[29]["status"]; ?>"><span>Q</span></div>
-										<div class="<?php echo $list_status[$list[30]["status"]] ?>" data-id="<?php echo $list[30]["id"]; ?>" status="<?php echo $list[30]["status"]; ?>"><span>R</span></div>
+										<div class="<?php echo $list_status[$list[25]["status"]] ?>" data-id="<?php echo $list[25]["id"]; ?>" seat-type="<?php echo $list[25]["box_id"] ?>" status="<?php echo $list[25]["status"]; ?>"><span>M</span></div>
+										<div class="<?php echo $list_status[$list[26]["status"]] ?> margin-right-15em" data-id="<?php echo $list[26]["id"]; ?>" seat-type="<?php echo $list[26]["box_id"] ?>" status="<?php echo $list[26]["status"]; ?>"><span>N</span></div>
+										<div class="<?php echo $list_status[$list[27]["status"]] ?>" data-id="<?php echo $list[27]["id"]; ?>" seat-type="<?php echo $list[27]["box_id"] ?>" status="<?php echo $list[27]["status"]; ?>"><span>O</span></div>
+										<div class="<?php echo $list_status[$list[28]["status"]] ?> margin-right-15em" data-id="<?php echo $list[28]["id"]; ?>" seat-type="<?php echo $list[28]["box_id"] ?>" status="<?php echo $list[28]["status"]; ?>"><span>P</span></div>
+										<div class="<?php echo $list_status[$list[29]["status"]] ?>" data-id="<?php echo $list[29]["id"]; ?>" seat-type="<?php echo $list[29]["box_id"] ?>" status="<?php echo $list[29]["status"]; ?>"><span>Q</span></div>
+										<div class="<?php echo $list_status[$list[30]["status"]] ?>" data-id="<?php echo $list[30]["id"]; ?>" seat-type="<?php echo $list[30]["box_id"] ?>" status="<?php echo $list[30]["status"]; ?>"><span>R</span></div>
 										<div class="flex-perfect-center"><span class="floor-number">1</span></div>
-										<div class="<?php echo $list_status[$list[31]["status"]] ?>" data-id="<?php echo $list[31]["id"]; ?>" status="<?php echo $list[31]["status"]; ?>"><span>S</span></div>
+										<div class="<?php echo $list_status[$list[31]["status"]] ?>" data-id="<?php echo $list[31]["id"]; ?>" seat-type="<?php echo $list[31]["box_id"] ?>" status="<?php echo $list[31]["status"]; ?>"><span>S</span></div>
 
 									</div>
 
 									<div class="flex-row">
-										<div class="<?php echo $list_status[$list[32]["status"]] ?>" data-id="<?php echo $list[32]["id"]; ?>" status="<?php echo $list[32]["status"]; ?>"><span>L</span></div>
+										<div class="<?php echo $list_status[$list[32]["status"]] ?>" data-id="<?php echo $list[32]["id"]; ?>" seat-type="<?php echo $list[32]["box_id"] ?>" status="<?php echo $list[32]["status"]; ?>"><span>L</span></div>
 										<div class="flex-perfect-center"><span class="floor-number">2</span></div>
-										<div class="<?php echo $list_status[$list[33]["status"]] ?>" data-id="<?php echo $list[33]["id"]; ?>" status="<?php echo $list[33]["status"]; ?>"><span>M</span></div>
-										<div class="<?php echo $list_status[$list[34]["status"]] ?> margin-right-15em" data-id="<?php echo $list[34]["id"]; ?>" status="<?php echo $list[34]["status"]; ?>"><span>N</span></div>
-										<div class="<?php echo $list_status[$list[35]["status"]] ?>" data-id="<?php echo $list[35]["id"]; ?>" status="<?php echo $list[35]["status"]; ?>"><span>O</span></div>
-										<div class="<?php echo $list_status[$list[36]["status"]] ?> margin-right-15em" data-id="<?php echo $list[36]["id"]; ?>" status="<?php echo $list[36]["status"]; ?>"><span>P</span></div>
-										<div class="<?php echo $list_status[$list[37]["status"]] ?>" data-id="<?php echo $list[37]["id"]; ?>" status="<?php echo $list[37]["status"]; ?>"><span>Q</span></div>
-										<div class="<?php echo $list_status[$list[38]["status"]] ?>" data-id="<?php echo $list[38]["id"]; ?>" status="<?php echo $list[38]["status"]; ?>"><span>R</span></div>
+										<div class="<?php echo $list_status[$list[33]["status"]] ?>" data-id="<?php echo $list[33]["id"]; ?>" seat-type="<?php echo $list[33]["box_id"] ?>" status="<?php echo $list[33]["status"]; ?>"><span>M</span></div>
+										<div class="<?php echo $list_status[$list[34]["status"]] ?> margin-right-15em" data-id="<?php echo $list[34]["id"]; ?>" seat-type="<?php echo $list[34]["box_id"] ?>" status="<?php echo $list[34]["status"]; ?>"><span>N</span></div>
+										<div class="<?php echo $list_status[$list[35]["status"]] ?>" data-id="<?php echo $list[35]["id"]; ?>" seat-type="<?php echo $list[35]["box_id"] ?>" status="<?php echo $list[35]["status"]; ?>"><span>O</span></div>
+										<div class="<?php echo $list_status[$list[36]["status"]] ?> margin-right-15em" data-id="<?php echo $list[36]["id"]; ?>" seat-type="<?php echo $list[36]["box_id"] ?>" status="<?php echo $list[36]["status"]; ?>"><span>P</span></div>
+										<div class="<?php echo $list_status[$list[37]["status"]] ?>" data-id="<?php echo $list[37]["id"]; ?>" seat-type="<?php echo $list[0]["box_id"] ?>" status="<?php echo $list[37]["status"]; ?>"><span>Q</span></div>
+										<div class="<?php echo $list_status[$list[38]["status"]] ?>" data-id="<?php echo $list[38]["id"]; ?>" seat-type="<?php echo $list[38]["box_id"] ?>" status="<?php echo $list[38]["status"]; ?>"><span>R</span></div>
 										<div class="flex-perfect-center"><span class="floor-number">2</span></div>
-										<div class="<?php echo $list_status[$list[39]["status"]] ?>" data-id="<?php echo $list[39]["id"]; ?>" status="<?php echo $list[39]["status"]; ?>"><span>S</span></div>
+										<div class="<?php echo $list_status[$list[39]["status"]] ?>" data-id="<?php echo $list[39]["id"]; ?>" seat-type="<?php echo $list[39]["box_id"] ?>" status="<?php echo $list[39]["status"]; ?>"><span>S</span></div>
 									</div>
 
 									<div class="flex-row">
-										<div class="<?php echo $list_status[$list[40]["status"]] ?>" data-id="<?php echo $list[40]["id"]; ?>" status="<?php echo $list[40]["status"]; ?>"><span>L</span></div>
+										<div class="<?php echo $list_status[$list[40]["status"]] ?>" data-id="<?php echo $list[40]["id"]; ?>" seat-type="<?php echo $list[40]["box_id"] ?>" status="<?php echo $list[40]["status"]; ?>"><span>L</span></div>
 										<div class="flex-perfect-center"><span class="floor-number">3</span></div>
-										<div class="<?php echo $list_status[$list[41]["status"]] ?>" data-id="<?php echo $list[41]["id"]; ?>" status="<?php echo $list[41]["status"]; ?>"><span>M</span></div>
-										<div class="<?php echo $list_status[$list[42]["status"]] ?> margin-right-15em" data-id="<?php echo $list[42]["id"]; ?>" status="<?php echo $list[42]["status"]; ?>"><span>N</span></div>
-										<div class="<?php echo $list_status[$list[43]["status"]] ?>" data-id="<?php echo $list[43]["id"]; ?>" status="<?php echo $list[43]["status"]; ?>"><span>O</span></div>
-										<div class="<?php echo $list_status[$list[44]["status"]] ?> margin-right-15em" data-id="<?php echo $list[44]["id"]; ?>" status="<?php echo $list[44]["status"]; ?>"><span>P</span></div>
-										<div class="<?php echo $list_status[$list[45]["status"]] ?>" data-id="<?php echo $list[45]["id"]; ?>" status="<?php echo $list[45]["status"]; ?>"><span>Q</span></div>
-										<div class="<?php echo $list_status[$list[46]["status"]] ?>" data-id="<?php echo $list[46]["id"]; ?>" status="<?php echo $list[46]["status"]; ?>"><span>R</span></div>
+										<div class="<?php echo $list_status[$list[41]["status"]] ?>" data-id="<?php echo $list[41]["id"]; ?>" seat-type="<?php echo $list[41]["box_id"] ?>" status="<?php echo $list[41]["status"]; ?>"><span>M</span></div>
+										<div class="<?php echo $list_status[$list[42]["status"]] ?> margin-right-15em" data-id="<?php echo $list[42]["id"]; ?>" seat-type="<?php echo $list[42]["box_id"] ?>" status="<?php echo $list[42]["status"]; ?>"><span>N</span></div>
+										<div class="<?php echo $list_status[$list[43]["status"]] ?>" data-id="<?php echo $list[43]["id"]; ?>" seat-type="<?php echo $list[43]["box_id"] ?>" status="<?php echo $list[43]["status"]; ?>"><span>O</span></div>
+										<div class="<?php echo $list_status[$list[44]["status"]] ?> margin-right-15em" data-id="<?php echo $list[44]["id"]; ?>" seat-type="<?php echo $list[44]["box_id"] ?>" status="<?php echo $list[44]["status"]; ?>"><span>P</span></div>
+										<div class="<?php echo $list_status[$list[45]["status"]] ?>" data-id="<?php echo $list[45]["id"]; ?>" seat-type="<?php echo $list[45]["box_id"] ?>" status="<?php echo $list[45]["status"]; ?>"><span>Q</span></div>
+										<div class="<?php echo $list_status[$list[46]["status"]] ?>" data-id="<?php echo $list[46]["id"]; ?>" seat-type="<?php echo $list[46]["box_id"] ?>" status="<?php echo $list[46]["status"]; ?>"><span>R</span></div>
 										<div class="flex-perfect-center"><span class="floor-number">3</span></div>
-										<div class="<?php echo $list_status[$list[47]["status"]] ?>" data-id="<?php echo $list[47]["id"]; ?>" status="<?php echo $list[47]["status"]; ?>"><span>S</span></div>
+										<div class="<?php echo $list_status[$list[47]["status"]] ?>" data-id="<?php echo $list[47]["id"]; ?>" seat-type="<?php echo $list[47]["box_id"] ?>" status="<?php echo $list[47]["status"]; ?>"><span>S</span></div>
 									</div>
 
 									<div class="flex-row">
-										<div class="<?php echo $list_status[$list[48]["status"]] ?>" data-id="<?php echo $list[48]["id"]; ?>" status="<?php echo $list[48]["status"]; ?>"><span>L</span></div>
+										<div class="<?php echo $list_status[$list[48]["status"]] ?>" data-id="<?php echo $list[48]["id"]; ?>" seat-type="<?php echo $list[48]["box_id"] ?>" status="<?php echo $list[48]["status"]; ?>"><span>L</span></div>
 										<div class="flex-perfect-center"><span class="floor-number">4</span></div>
-										<div class="<?php echo $list_status[$list[49]["status"]] ?>" data-id="<?php echo $list[49]["id"]; ?>" status="<?php echo $list[49]["status"]; ?>"><span>M</span></div>
-										<div class="<?php echo $list_status[$list[50]["status"]] ?> margin-right-15em" data-id="<?php echo $list[50]["id"]; ?>" status="<?php echo $list[50]["status"]; ?>"><span>N</span></div>
-										<div class="<?php echo $list_status[$list[51]["status"]] ?>" data-id="<?php echo $list[51]["id"]; ?>" status="<?php echo $list[51]["status"]; ?>"><span>O</span></div>
-										<div class="<?php echo $list_status[$list[52]["status"]] ?> margin-right-15em" data-id="<?php echo $list[52]["id"]; ?>" status="<?php echo $list[52]["status"]; ?>"><span>P</span></div>
-										<div class="<?php echo $list_status[$list[53]["status"]] ?>" data-id="<?php echo $list[53]["id"]; ?>" status="<?php echo $list[53]["status"]; ?>"><span>Q</span></div>
-										<div class="<?php echo $list_status[$list[54]["status"]] ?>" data-id="<?php echo $list[54]["id"]; ?>" status="<?php echo $list[54]["status"]; ?>"><span>R</span></div>
+										<div class="<?php echo $list_status[$list[49]["status"]] ?>" data-id="<?php echo $list[49]["id"]; ?>" seat-type="<?php echo $list[49]["box_id"] ?>" status="<?php echo $list[49]["status"]; ?>"><span>M</span></div>
+										<div class="<?php echo $list_status[$list[50]["status"]] ?> margin-right-15em" data-id="<?php echo $list[50]["id"]; ?>" seat-type="<?php echo $list[50]["box_id"] ?>" status="<?php echo $list[50]["status"]; ?>"><span>N</span></div>
+										<div class="<?php echo $list_status[$list[51]["status"]] ?>" data-id="<?php echo $list[51]["id"]; ?>" seat-type="<?php echo $list[51]["box_id"] ?>" status="<?php echo $list[51]["status"]; ?>"><span>O</span></div>
+										<div class="<?php echo $list_status[$list[52]["status"]] ?> margin-right-15em" data-id="<?php echo $list[52]["id"]; ?>" seat-type="<?php echo $list[52]["box_id"] ?>" status="<?php echo $list[52]["status"]; ?>"><span>P</span></div>
+										<div class="<?php echo $list_status[$list[53]["status"]] ?>" data-id="<?php echo $list[53]["id"]; ?>" seat-type="<?php echo $list[53]["box_id"] ?>" status="<?php echo $list[53]["status"]; ?>"><span>Q</span></div>
+										<div class="<?php echo $list_status[$list[54]["status"]] ?>" data-id="<?php echo $list[54]["id"]; ?>" seat-type="<?php echo $list[54]["box_id"] ?>" status="<?php echo $list[54]["status"]; ?>"><span>R</span></div>
 										<div class="flex-perfect-center"><span class="floor-number">4</span></div>
-										<div class="<?php echo $list_status[$list[55]["status"]] ?>" data-id="<?php echo $list[55]["id"]; ?>" status="<?php echo $list[55]["status"]; ?>"><span>S</span></div>
+										<div class="<?php echo $list_status[$list[55]["status"]] ?>" data-id="<?php echo $list[55]["id"]; ?>" seat-type="<?php echo $list[55]["box_id"] ?>" status="<?php echo $list[55]["status"]; ?>"><span>S</span></div>
 									</div>
 								</div>
 
@@ -226,25 +226,25 @@
 							</div>
 							<div class="fee-grid-col-2">
 								<div class="flex-col padding-top-05em">
-									<span class="fee-value"><?php echo $price[2] ?></span>
+									<span id="seat-2" class="fee-value"><?php echo $price[2] ?></span>
 									<span class="fee-unit">円</span>
 								</div>
 							</div>
 							<div class="fee-grid-col-1">
 								<div class="flex-col" style="padding: 0.5em 0 0 0;">
-									<span class="fee-value"><?php echo $price[3] ?></span>
+									<span id="seat-3" class="fee-value"><?php echo $price[3] ?></span>
 									<span class="fee-unit">円</span>
 								</div>
 							</div>
 							<div class="fee-grid-col-2">
 								<div class="flex-col" style="padding: 0.5em 0 0 0;">
-									<span class="fee-value"><?php echo $price[1] ?></span>
+									<span id="seat-1" class="fee-value"><?php echo $price[1] ?></span>
 									<span class="fee-unit">円</span>
 								</div>
 							</div>
 							<div class="fee-grid-col-1">
 								<div class="flex-col" style="padding: 0.5em 0 0 0;">
-									<span class="fee-value"><?php echo $price[0] ?></span>
+									<span id="seat-0" class="fee-value"><?php echo $price[0] ?></span>
 									<span class="fee-unit">円</span>
 								</div>
 							</div>
@@ -286,173 +286,173 @@
 
 				<div class="flex-col_align__center">
 					<div class="perabo-row">
-						<div class="<?php echo $list_status_pair[$list[56]["status"]] ?>" data-id="<?php echo $list[56]["id"]; ?>" status="<?php echo $list[56]["status"]; ?>"><span>AB</span></div>
+						<div class="<?php echo $list_status_pair[$list[56]["status"]] ?>" data-id="<?php echo $list[56]["id"]; ?>" seat-type="<?php echo $list[56]["box_id"] ?>" status="<?php echo $list[56]["status"]; ?>"><span>AB</span></div>
 						<div class="flex-perfect-center"><span class="floor-number">1</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[57]["status"]] ?>" data-id="<?php echo $list[57]["id"]; ?>" status="<?php echo $list[57]["status"]; ?>"><span>C</span></div>
-							<div class="<?php echo $list_status[$list[58]["status"]] ?> margin-right-15em" data-id="<?php echo $list[58]["id"]; ?>" status="<?php echo $list[58]["status"]; ?>"><span>D</span></div>
+							<div class="<?php echo $list_status[$list[57]["status"]] ?>" data-id="<?php echo $list[57]["id"]; ?>" seat-type="<?php echo $list[57]["box_id"] ?>" status="<?php echo $list[57]["status"]; ?>"><span>C</span></div>
+							<div class="<?php echo $list_status[$list[58]["status"]] ?> margin-right-15em" data-id="<?php echo $list[58]["id"]; ?>" seat-type="<?php echo $list[58]["box_id"] ?>" status="<?php echo $list[58]["status"]; ?>"><span>D</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[59]["status"]] ?>" data-id="<?php echo $list[59]["id"]; ?>" status="<?php echo $list[59]["status"]; ?>"><span>E</span></div>
-							<div class="<?php echo $list_status[$list[60]["status"]] ?> margin-right-15em" data-id="<?php echo $list[60]["id"]; ?>" status="<?php echo $list[60]["status"]; ?>"><span>F</span></div>
+							<div class="<?php echo $list_status[$list[59]["status"]] ?>" data-id="<?php echo $list[59]["id"]; ?>" seat-type="<?php echo $list[59]["box_id"] ?>" status="<?php echo $list[59]["status"]; ?>"><span>E</span></div>
+							<div class="<?php echo $list_status[$list[60]["status"]] ?> margin-right-15em" data-id="<?php echo $list[60]["id"]; ?>" seat-type="<?php echo $list[60]["box_id"] ?>" status="<?php echo $list[60]["status"]; ?>"><span>F</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[61]["status"]] ?>" data-id="<?php echo $list[61]["id"]; ?>" status="<?php echo $list[61]["status"]; ?>"><span>G</span></div>
-							<div class="<?php echo $list_status[$list[62]["status"]] ?>" data-id="<?php echo $list[62]["id"]; ?>" status="<?php echo $list[62]["status"]; ?>"><span>H</span></div>
+							<div class="<?php echo $list_status[$list[61]["status"]] ?>" data-id="<?php echo $list[61]["id"]; ?>" seat-type="<?php echo $list[61]["box_id"] ?>" status="<?php echo $list[61]["status"]; ?>"><span>G</span></div>
+							<div class="<?php echo $list_status[$list[62]["status"]] ?>" data-id="<?php echo $list[62]["id"]; ?>" seat-type="<?php echo $list[62]["box_id"] ?>" status="<?php echo $list[62]["status"]; ?>"><span>H</span></div>
 						</div>
 						<div class="flex-perfect-center"><span class="floor-number">1</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[63]["status"]] ?>" data-id="<?php echo $list[63]["id"]; ?>" status="<?php echo $list[63]["status"]; ?>"><span>J</span></div>
-							<div class="<?php echo $list_status[$list[64]["status"]] ?>" data-id="<?php echo $list[64]["id"]; ?>" status="<?php echo $list[64]["status"]; ?>"><span>K</span></div>
+							<div class="<?php echo $list_status[$list[63]["status"]] ?>" data-id="<?php echo $list[63]["id"]; ?>" seat-type="<?php echo $list[63]["box_id"] ?>" status="<?php echo $list[63]["status"]; ?>"><span>J</span></div>
+							<div class="<?php echo $list_status[$list[64]["status"]] ?>" data-id="<?php echo $list[64]["id"]; ?>" seat-type="<?php echo $list[64]["box_id"] ?>" status="<?php echo $list[64]["status"]; ?>"><span>K</span></div>
 						</div>
 					</div>
 
 					<div class="perabo-row">
-						<div class="<?php echo $list_status_pair[$list[65]["status"]] ?>" data-id="<?php echo $list[65]["id"]; ?>" status="<?php echo $list[65]["status"]; ?>"><span>AB</span></div>
+						<div class="<?php echo $list_status_pair[$list[65]["status"]] ?>" data-id="<?php echo $list[65]["id"]; ?>" seat-type="<?php echo $list[65]["box_id"] ?>" status="<?php echo $list[65]["status"]; ?>"><span>AB</span></div>
 						<div class="flex-perfect-center"><span class="floor-number">2</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[66]["status"]] ?>" data-id="<?php echo $list[66]["id"]; ?>" status="<?php echo $list[66]["status"]; ?>"><span>C</span></div>
-							<div class="<?php echo $list_status[$list[67]["status"]] ?> margin-right-15em" data-id="<?php echo $list[67]["id"]; ?>" status="<?php echo $list[67]["status"]; ?>"><span>D</span></div>
+							<div class="<?php echo $list_status[$list[66]["status"]] ?>" data-id="<?php echo $list[66]["id"]; ?>" seat-type="<?php echo $list[66]["box_id"] ?>" status="<?php echo $list[66]["status"]; ?>"><span>C</span></div>
+							<div class="<?php echo $list_status[$list[67]["status"]] ?> margin-right-15em" data-id="<?php echo $list[67]["id"]; ?>" seat-type="<?php echo $list[67]["box_id"] ?>" status="<?php echo $list[67]["status"]; ?>"><span>D</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[68]["status"]] ?>" data-id="<?php echo $list[68]["id"]; ?>" status="<?php echo $list[68]["status"]; ?>"><span>E</span></div>
-							<div class="<?php echo $list_status[$list[69]["status"]] ?> margin-right-15em" data-id="<?php echo $list[69]["id"]; ?>" status="<?php echo $list[69]["status"]; ?>"><span>F</span></div>
+							<div class="<?php echo $list_status[$list[68]["status"]] ?>" data-id="<?php echo $list[68]["id"]; ?>" seat-type="<?php echo $list[68]["box_id"] ?>" status="<?php echo $list[68]["status"]; ?>"><span>E</span></div>
+							<div class="<?php echo $list_status[$list[69]["status"]] ?> margin-right-15em" data-id="<?php echo $list[69]["id"]; ?>" seat-type="<?php echo $list[69]["box_id"] ?>" status="<?php echo $list[69]["status"]; ?>"><span>F</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[70]["status"]] ?>" data-id="<?php echo $list[70]["id"]; ?>" status="<?php echo $list[70]["status"]; ?>"><span>G</span></div>
-							<div class="<?php echo $list_status[$list[71]["status"]] ?>" data-id="<?php echo $list[71]["id"]; ?>" status="<?php echo $list[71]["status"]; ?>"><span>H</span></div>
+							<div class="<?php echo $list_status[$list[70]["status"]] ?>" data-id="<?php echo $list[70]["id"]; ?>" seat-type="<?php echo $list[70]["box_id"] ?>" status="<?php echo $list[70]["status"]; ?>"><span>G</span></div>
+							<div class="<?php echo $list_status[$list[71]["status"]] ?>" data-id="<?php echo $list[71]["id"]; ?>" seat-type="<?php echo $list[71]["box_id"] ?>" status="<?php echo $list[71]["status"]; ?>"><span>H</span></div>
 						</div>
 						<div class="flex-perfect-center"><span class="floor-number">2</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[72]["status"]] ?>" data-id="<?php echo $list[72]["id"]; ?>" status="<?php echo $list[72]["status"]; ?>"><span>J</span></div>
-							<div class="<?php echo $list_status[$list[73]["status"]] ?>" data-id="<?php echo $list[73]["id"]; ?>" status="<?php echo $list[73]["status"]; ?>"><span>K</span></div>
+							<div class="<?php echo $list_status[$list[72]["status"]] ?>" data-id="<?php echo $list[72]["id"]; ?>" seat-type="<?php echo $list[72]["box_id"] ?>" status="<?php echo $list[72]["status"]; ?>"><span>J</span></div>
+							<div class="<?php echo $list_status[$list[73]["status"]] ?>" data-id="<?php echo $list[73]["id"]; ?>" seat-type="<?php echo $list[73]["box_id"] ?>" status="<?php echo $list[73]["status"]; ?>"><span>K</span></div>
 						</div>
 					</div>
 
 					<div class="perabo-row">
-						<div class="<?php echo $list_status_pair[$list[74]["status"]] ?>" data-id="<?php echo $list[74]["id"]; ?>" status="<?php echo $list[74]["status"]; ?>"><span>AB</span></div>
+						<div class="<?php echo $list_status_pair[$list[74]["status"]] ?>" data-id="<?php echo $list[74]["id"]; ?>" seat-type="<?php echo $list[74]["box_id"] ?>" status="<?php echo $list[74]["status"]; ?>"><span>AB</span></div>
 						<div class="flex-perfect-center"><span class="floor-number">3</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[75]["status"]] ?>" data-id="<?php echo $list[75]["id"]; ?>" status="<?php echo $list[75]["status"]; ?>"><span>C</span></div>
-							<div class="<?php echo $list_status[$list[76]["status"]] ?> margin-right-15em" data-id="<?php echo $list[76]["id"]; ?>" status="<?php echo $list[76]["status"]; ?>"><span>D</span></div>
+							<div class="<?php echo $list_status[$list[75]["status"]] ?>" data-id="<?php echo $list[75]["id"]; ?>" seat-type="<?php echo $list[76]["box_id"] ?>" status="<?php echo $list[75]["status"]; ?>"><span>C</span></div>
+							<div class="<?php echo $list_status[$list[76]["status"]] ?> margin-right-15em" data-id="<?php echo $list[76]["id"]; ?>" seat-type="<?php echo $list[76]["box_id"] ?>" status="<?php echo $list[76]["status"]; ?>"><span>D</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[77]["status"]] ?>" data-id="<?php echo $list[77]["id"]; ?>" status="<?php echo $list[77]["status"]; ?>"><span>E</span></div>
-							<div class="<?php echo $list_status[$list[78]["status"]] ?> margin-right-15em" data-id="<?php echo $list[78]["id"]; ?>" status="<?php echo $list[78]["status"]; ?>"><span>F</span></div>
+							<div class="<?php echo $list_status[$list[77]["status"]] ?>" data-id="<?php echo $list[77]["id"]; ?>" seat-type="<?php echo $list[77]["box_id"] ?>" status="<?php echo $list[77]["status"]; ?>"><span>E</span></div>
+							<div class="<?php echo $list_status[$list[78]["status"]] ?> margin-right-15em" data-id="<?php echo $list[78]["id"]; ?>" seat-type="<?php echo $list[78]["box_id"] ?>" status="<?php echo $list[78]["status"]; ?>"><span>F</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[79]["status"]] ?>" data-id="<?php echo $list[79]["id"]; ?>" status="<?php echo $list[79]["status"]; ?>"><span>G</span></div>
-							<div class="<?php echo $list_status[$list[80]["status"]] ?>" data-id="<?php echo $list[80]["id"]; ?>" status="<?php echo $list[80]["status"]; ?>"><span>H</span></div>
+							<div class="<?php echo $list_status[$list[79]["status"]] ?>" data-id="<?php echo $list[79]["id"]; ?>" seat-type="<?php echo $list[79]["box_id"] ?>" status="<?php echo $list[79]["status"]; ?>"><span>G</span></div>
+							<div class="<?php echo $list_status[$list[80]["status"]] ?>" data-id="<?php echo $list[80]["id"]; ?>" seat-type="<?php echo $list[80]["box_id"] ?>" status="<?php echo $list[80]["status"]; ?>"><span>H</span></div>
 						</div>
 						<div class="flex-perfect-center"><span class="floor-number">3</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[81]["status"]] ?>" data-id="<?php echo $list[81]["id"]; ?>" status="<?php echo $list[81]["status"]; ?>"><span>J</span></div>
-							<div class="<?php echo $list_status[$list[82]["status"]] ?>" data-id="<?php echo $list[82]["id"]; ?>" status="<?php echo $list[82]["status"]; ?>"><span>K</span></div>
+							<div class="<?php echo $list_status[$list[81]["status"]] ?>" data-id="<?php echo $list[81]["id"]; ?>" seat-type="<?php echo $list[81]["box_id"] ?>" status="<?php echo $list[81]["status"]; ?>"><span>J</span></div>
+							<div class="<?php echo $list_status[$list[82]["status"]] ?>" data-id="<?php echo $list[82]["id"]; ?>" seat-type="<?php echo $list[82]["box_id"] ?>" status="<?php echo $list[82]["status"]; ?>"><span>K</span></div>
 						</div>
 					</div>
 
 					<div class="perabo-row">
-						<div class="<?php echo $list_status_pair[$list[83]["status"]] ?>" data-id="<?php echo $list[83]["id"]; ?>" status="<?php echo $list[83]["status"]; ?>"><span>AB</span></div>
+						<div class="<?php echo $list_status_pair[$list[83]["status"]] ?>" data-id="<?php echo $list[83]["id"]; ?>" seat-type="<?php echo $list[83]["box_id"] ?>" status="<?php echo $list[83]["status"]; ?>"><span>AB</span></div>
 						<div class="flex-perfect-center"><span class="floor-number">4</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[84]["status"]] ?>" data-id="<?php echo $list[84]["id"]; ?>" status="<?php echo $list[84]["status"]; ?>"><span>C</span></div>
-							<div class="<?php echo $list_status[$list[85]["status"]] ?> margin-right-15em" data-id="<?php echo $list[85]["id"]; ?>" status="<?php echo $list[85]["status"]; ?>"><span>D</span></div>
+							<div class="<?php echo $list_status[$list[84]["status"]] ?>" data-id="<?php echo $list[84]["id"]; ?>" seat-type="<?php echo $list[84]["box_id"] ?>" status="<?php echo $list[84]["status"]; ?>"><span>C</span></div>
+							<div class="<?php echo $list_status[$list[85]["status"]] ?> margin-right-15em" data-id="<?php echo $list[85]["id"]; ?>" seat-type="<?php echo $list[85]["box_id"] ?>" status="<?php echo $list[85]["status"]; ?>"><span>D</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[86]["status"]] ?>" data-id="<?php echo $list[86]["id"]; ?>" status="<?php echo $list[86]["status"]; ?>"><span>E</span></div>
-							<div class="<?php echo $list_status[$list[87]["status"]] ?> margin-right-15em" data-id="<?php echo $list[87]["id"]; ?>" status="<?php echo $list[87]["status"]; ?>"><span>F</span></div>
+							<div class="<?php echo $list_status[$list[86]["status"]] ?>" data-id="<?php echo $list[86]["id"]; ?>" seat-type="<?php echo $list[86]["box_id"] ?>" status="<?php echo $list[86]["status"]; ?>"><span>E</span></div>
+							<div class="<?php echo $list_status[$list[87]["status"]] ?> margin-right-15em" data-id="<?php echo $list[87]["id"]; ?>" seat-type="<?php echo $list[87]["box_id"] ?>" status="<?php echo $list[87]["status"]; ?>"><span>F</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[88]["status"]] ?>" data-id="<?php echo $list[88]["id"]; ?>" status="<?php echo $list[88]["status"]; ?>"><span>G</span></div>
-							<div class="<?php echo $list_status[$list[89]["status"]] ?>" data-id="<?php echo $list[89]["id"]; ?>" status="<?php echo $list[89]["status"]; ?>"><span>H</span></div>
+							<div class="<?php echo $list_status[$list[88]["status"]] ?>" data-id="<?php echo $list[88]["id"]; ?>" seat-type="<?php echo $list[88]["box_id"] ?>" status="<?php echo $list[88]["status"]; ?>"><span>G</span></div>
+							<div class="<?php echo $list_status[$list[89]["status"]] ?>" data-id="<?php echo $list[89]["id"]; ?>" seat-type="<?php echo $list[89]["box_id"] ?>" status="<?php echo $list[89]["status"]; ?>"><span>H</span></div>
 						</div>
 						<div class="flex-perfect-center"><span class="floor-number">4</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[90]["status"]] ?>" data-id="<?php echo $list[90]["id"]; ?>" status="<?php echo $list[90]["status"]; ?>"><span>J</span></div>
-							<div class="<?php echo $list_status[$list[91]["status"]] ?>" data-id="<?php echo $list[91]["id"]; ?>" status="<?php echo $list[91]["status"]; ?>"><span>K</span></div>
+							<div class="<?php echo $list_status[$list[90]["status"]] ?>" data-id="<?php echo $list[90]["id"]; ?>" seat-type="<?php echo $list[90]["box_id"] ?>" status="<?php echo $list[90]["status"]; ?>"><span>J</span></div>
+							<div class="<?php echo $list_status[$list[91]["status"]] ?>" data-id="<?php echo $list[91]["id"]; ?>" seat-type="<?php echo $list[91]["box_id"] ?>" status="<?php echo $list[91]["status"]; ?>"><span>K</span></div>
 						</div>
 					</div>
 
 					<div class="perabo-row">
-						<div class="<?php echo $list_status_pair[$list[92]["status"]] ?>" data-id="<?php echo $list[92]["id"]; ?>" status="<?php echo $list[92]["status"]; ?>"><span>AB</span></div>
+						<div class="<?php echo $list_status_pair[$list[92]["status"]] ?>" data-id="<?php echo $list[92]["id"]; ?>" seat-type="<?php echo $list[92]["box_id"] ?>" status="<?php echo $list[92]["status"]; ?>"><span>AB</span></div>
 						<div class="flex-perfect-center"><span class="floor-number">5</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[93]["status"]] ?>" data-id="<?php echo $list[93]["id"]; ?>" status="<?php echo $list[93]["status"]; ?>"><span>C</span></div>
-							<div class="<?php echo $list_status[$list[94]["status"]] ?> margin-right-15em" data-id="<?php echo $list[94]["id"]; ?>" status="<?php echo $list[94]["status"]; ?>"><span>D</span></div>
+							<div class="<?php echo $list_status[$list[93]["status"]] ?>" data-id="<?php echo $list[93]["id"]; ?>" seat-type="<?php echo $list[93]["box_id"] ?>" status="<?php echo $list[93]["status"]; ?>"><span>C</span></div>
+							<div class="<?php echo $list_status[$list[94]["status"]] ?> margin-right-15em" data-id="<?php echo $list[94]["id"]; ?>" seat-type="<?php echo $list[94]["box_id"] ?>" status="<?php echo $list[94]["status"]; ?>"><span>D</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[95]["status"]] ?>" data-id="<?php echo $list[95]["id"]; ?>" status="<?php echo $list[95]["status"]; ?>"><span>E</span></div>
-							<div class="<?php echo $list_status[$list[96]["status"]] ?> margin-right-15em" data-id="<?php echo $list[96]["id"]; ?>" status="<?php echo $list[96]["status"]; ?>"><span>F</span></div>
+							<div class="<?php echo $list_status[$list[95]["status"]] ?>" data-id="<?php echo $list[95]["id"]; ?>" seat-type="<?php echo $list[95]["box_id"] ?>" status="<?php echo $list[95]["status"]; ?>"><span>E</span></div>
+							<div class="<?php echo $list_status[$list[96]["status"]] ?> margin-right-15em" data-id="<?php echo $list[96]["id"]; ?>" seat-type="<?php echo $list[96]["box_id"] ?>" status="<?php echo $list[96]["status"]; ?>"><span>F</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[97]["status"]] ?>" data-id="<?php echo $list[97]["id"]; ?>" status="<?php echo $list[97]["status"]; ?>"><span>G</span></div>
-							<div class="<?php echo $list_status[$list[98]["status"]] ?>" data-id="<?php echo $list[98]["id"]; ?>" status="<?php echo $list[98]["status"]; ?>"><span>H</span></div>
+							<div class="<?php echo $list_status[$list[97]["status"]] ?>" data-id="<?php echo $list[97]["id"]; ?>" seat-type="<?php echo $list[97]["box_id"] ?>" status="<?php echo $list[97]["status"]; ?>"><span>G</span></div>
+							<div class="<?php echo $list_status[$list[98]["status"]] ?>" data-id="<?php echo $list[98]["id"]; ?>" seat-type="<?php echo $list[98]["box_id"] ?>" status="<?php echo $list[98]["status"]; ?>"><span>H</span></div>
 						</div>
 						<div class="flex-perfect-center"><span class="floor-number">5</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[99]["status"]] ?>" data-id="<?php echo $list[99]["id"]; ?>" status="<?php echo $list[99]["status"]; ?>"><span>J</span></div>
-							<div class="<?php echo $list_status[$list[100]["status"]] ?>" data-id="<?php echo $list[100]["id"]; ?>" status="<?php echo $list[100]["status"]; ?>"><span>K</span></div>
+							<div class="<?php echo $list_status[$list[99]["status"]] ?>" data-id="<?php echo $list[99]["id"]; ?>" seat-type="<?php echo $list[99]["box_id"] ?>" status="<?php echo $list[99]["status"]; ?>"><span>J</span></div>
+							<div class="<?php echo $list_status[$list[100]["status"]] ?>" data-id="<?php echo $list[100]["id"]; ?>" seat-type="<?php echo $list[100]["box_id"] ?>" status="<?php echo $list[100]["status"]; ?>"><span>K</span></div>
 						</div>
 					</div>
 
 					<div class="perabo-row">
-						<div class="<?php echo $list_status_pair[$list[101]["status"]] ?>" data-id="<?php echo $list[101]["id"]; ?>" status="<?php echo $list[101]["status"]; ?>"><span>AB</span></div>
+						<div class="<?php echo $list_status_pair[$list[101]["status"]] ?>" data-id="<?php echo $list[101]["id"]; ?>" seat-type="<?php echo $list[101]["box_id"] ?>" status="<?php echo $list[101]["status"]; ?>"><span>AB</span></div>
 						<div class="flex-perfect-center"><span class="floor-number">6</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[102]["status"]] ?>" data-id="<?php echo $list[102]["id"]; ?>" status="<?php echo $list[102]["status"]; ?>"><span>C</span></div>
-							<div class="<?php echo $list_status[$list[103]["status"]] ?> margin-right-15em" data-id="<?php echo $list[103]["id"]; ?>" status="<?php echo $list[103]["status"]; ?>"><span>D</span></div>
+							<div class="<?php echo $list_status[$list[102]["status"]] ?>" data-id="<?php echo $list[102]["id"]; ?>" seat-type="<?php echo $list[102]["box_id"] ?>" status="<?php echo $list[102]["status"]; ?>"><span>C</span></div>
+							<div class="<?php echo $list_status[$list[103]["status"]] ?> margin-right-15em" data-id="<?php echo $list[103]["id"]; ?>" seat-type="<?php echo $list[103]["box_id"] ?>" status="<?php echo $list[103]["status"]; ?>"><span>D</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[104]["status"]] ?>" data-id="<?php echo $list[104]["id"]; ?>" status="<?php echo $list[104]["status"]; ?>"><span>E</span></div>
-							<div class="<?php echo $list_status[$list[105]["status"]] ?> margin-right-15em" data-id="<?php echo $list[105]["id"]; ?>" status="<?php echo $list[105]["status"]; ?>"><span>F</span></div>
+							<div class="<?php echo $list_status[$list[104]["status"]] ?>" data-id="<?php echo $list[104]["id"]; ?>" seat-type="<?php echo $list[104]["box_id"] ?>" status="<?php echo $list[104]["status"]; ?>"><span>E</span></div>
+							<div class="<?php echo $list_status[$list[105]["status"]] ?> margin-right-15em" data-id="<?php echo $list[105]["id"]; ?>" seat-type="<?php echo $list[105]["box_id"] ?>" status="<?php echo $list[105]["status"]; ?>"><span>F</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[106]["status"]] ?>" data-id="<?php echo $list[106]["id"]; ?>" status="<?php echo $list[106]["status"]; ?>"><span>G</span></div>
-							<div class="<?php echo $list_status[$list[107]["status"]] ?>" data-id="<?php echo $list[107]["id"]; ?>" status="<?php echo $list[107]["status"]; ?>"><span>H</span></div>
+							<div class="<?php echo $list_status[$list[106]["status"]] ?>" data-id="<?php echo $list[106]["id"]; ?>" seat-type="<?php echo $list[106]["box_id"] ?>" status="<?php echo $list[106]["status"]; ?>"><span>G</span></div>
+							<div class="<?php echo $list_status[$list[107]["status"]] ?>" data-id="<?php echo $list[107]["id"]; ?>" seat-type="<?php echo $list[107]["box_id"] ?>" status="<?php echo $list[107]["status"]; ?>"><span>H</span></div>
 						</div>
 						<div class="flex-perfect-center"><span class="floor-number">6</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[108]["status"]] ?>" data-id="<?php echo $list[108]["id"]; ?>" status="<?php echo $list[108]["status"]; ?>"><span>J</span></div>
-							<div class="<?php echo $list_status[$list[109]["status"]] ?>" data-id="<?php echo $list[109]["id"]; ?>" status="<?php echo $list[109]["status"]; ?>"><span>K</span></div>
+							<div class="<?php echo $list_status[$list[108]["status"]] ?>" data-id="<?php echo $list[108]["id"]; ?>" seat-type="<?php echo $list[108]["box_id"] ?>" status="<?php echo $list[108]["status"]; ?>"><span>J</span></div>
+							<div class="<?php echo $list_status[$list[109]["status"]] ?>" data-id="<?php echo $list[109]["id"]; ?>" seat-type="<?php echo $list[109]["box_id"] ?>" status="<?php echo $list[109]["status"]; ?>"><span>K</span></div>
 						</div>
 					</div>
 
 					<div class="perabo-row">
-						<div class="<?php echo $list_status_pair[$list[110]["status"]] ?>" data-id="<?php echo $list[110]["id"]; ?>" status="<?php echo $list[110]["status"]; ?>"><span>AB</span></div>
+						<div class="<?php echo $list_status_pair[$list[110]["status"]] ?>" data-id="<?php echo $list[110]["id"]; ?>" seat-type="<?php echo $list[110]["box_id"] ?>" status="<?php echo $list[110]["status"]; ?>"><span>AB</span></div>
 						<div class="flex-perfect-center"><span class="floor-number">7</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[111]["status"]] ?>" data-id="<?php echo $list[111]["id"]; ?>" status="<?php echo $list[111]["status"]; ?>"><span>C</span></div>
-							<div class="<?php echo $list_status[$list[112]["status"]] ?> margin-right-15em" data-id="<?php echo $list[112]["id"]; ?>" status="<?php echo $list[112]["status"]; ?>"><span>D</span></div>
+							<div class="<?php echo $list_status[$list[111]["status"]] ?>" data-id="<?php echo $list[111]["id"]; ?>" seat-type="<?php echo $list[111]["box_id"] ?>" status="<?php echo $list[111]["status"]; ?>"><span>C</span></div>
+							<div class="<?php echo $list_status[$list[112]["status"]] ?> margin-right-15em" data-id="<?php echo $list[112]["id"]; ?>" seat-type="<?php echo $list[112]["box_id"] ?>" status="<?php echo $list[112]["status"]; ?>"><span>D</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[113]["status"]] ?>" data-id="<?php echo $list[113]["id"]; ?>" status="<?php echo $list[113]["status"]; ?>"><span>E</span></div>
-							<div class="<?php echo $list_status[$list[114]["status"]] ?> margin-right-15em" data-id="<?php echo $list[114]["id"]; ?>" status="<?php echo $list[114]["status"]; ?>"><span>F</span></div>
+							<div class="<?php echo $list_status[$list[113]["status"]] ?>" data-id="<?php echo $list[113]["id"]; ?>" seat-type="<?php echo $list[113]["box_id"] ?>" status="<?php echo $list[113]["status"]; ?>"><span>E</span></div>
+							<div class="<?php echo $list_status[$list[114]["status"]] ?> margin-right-15em" data-id="<?php echo $list[114]["id"]; ?>" seat-type="<?php echo $list[114]["box_id"] ?>" status="<?php echo $list[114]["status"]; ?>"><span>F</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[115]["status"]] ?>" data-id="<?php echo $list[115]["id"]; ?>" status="<?php echo $list[115]["status"]; ?>"><span>G</span></div>
-							<div class="<?php echo $list_status[$list[116]["status"]] ?>" data-id="<?php echo $list[116]["id"]; ?>" status="<?php echo $list[116]["status"]; ?>"><span>H</span></div>
+							<div class="<?php echo $list_status[$list[115]["status"]] ?>" data-id="<?php echo $list[115]["id"]; ?>" seat-type="<?php echo $list[115]["box_id"] ?>" status="<?php echo $list[115]["status"]; ?>"><span>G</span></div>
+							<div class="<?php echo $list_status[$list[116]["status"]] ?>" data-id="<?php echo $list[116]["id"]; ?>" seat-type="<?php echo $list[116]["box_id"] ?>" status="<?php echo $list[116]["status"]; ?>"><span>H</span></div>
 						</div>
 						<div class="flex-perfect-center"><span class="floor-number">7</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[117]["status"]] ?>" data-id="<?php echo $list[117]["id"]; ?>" status="<?php echo $list[117]["status"]; ?>"><span>J</span></div>
-							<div class="<?php echo $list_status[$list[118]["status"]] ?>" data-id="<?php echo $list[118]["id"]; ?>" status="<?php echo $list[118]["status"]; ?>"><span>K</span></div>
+							<div class="<?php echo $list_status[$list[117]["status"]] ?>" data-id="<?php echo $list[117]["id"]; ?>" seat-type="<?php echo $list[117]["box_id"] ?>" status="<?php echo $list[117]["status"]; ?>"><span>J</span></div>
+							<div class="<?php echo $list_status[$list[118]["status"]] ?>" data-id="<?php echo $list[118]["id"]; ?>" seat-type="<?php echo $list[118]["box_id"] ?>" status="<?php echo $list[118]["status"]; ?>"><span>K</span></div>
 						</div>
 					</div>
 
 					<div class="perabo-row">
-						<div class="<?php echo $list_status_pair[$list[119]["status"]] ?>" data-id="<?php echo $list[119]["id"]; ?>" status="<?php echo $list[119]["status"]; ?>"><span>AB</span></div>
+						<div class="<?php echo $list_status_pair[$list[119]["status"]] ?>" data-id="<?php echo $list[119]["id"]; ?>" seat-type="<?php echo $list[119]["box_id"] ?>" status="<?php echo $list[119]["status"]; ?>"><span>AB</span></div>
 						<div class="flex-perfect-center"><span class="floor-number">8</span></div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[120]["status"]] ?>" data-id="<?php echo $list[120]["id"]; ?>" status="<?php echo $list[120]["status"]; ?>"><span>C</span></div>
-							<div class="<?php echo $list_status[$list[121]["status"]] ?> margin-right-15em" data-id="<?php echo $list[121]["id"]; ?>" status="<?php echo $list[121]["status"]; ?>"><span>D</span></div>
+							<div class="<?php echo $list_status[$list[120]["status"]] ?>" data-id="<?php echo $list[120]["id"]; ?>" seat-type="<?php echo $list[120]["box_id"] ?>" status="<?php echo $list[120]["status"]; ?>"><span>C</span></div>
+							<div class="<?php echo $list_status[$list[121]["status"]] ?> margin-right-15em" data-id="<?php echo $list[121]["id"]; ?>" seat-type="<?php echo $list[121]["box_id"] ?>" status="<?php echo $list[121]["status"]; ?>"><span>D</span></div>
 						</div>
 						<div class="flex-row">
-							<div class="<?php echo $list_status[$list[122]["status"]] ?>" data-id="<?php echo $list[122]["id"]; ?>" status="<?php echo $list[122]["status"]; ?>"><span>E</span></div>
-							<div class="<?php echo $list_status[$list[123]["status"]] ?> margin-right-15em" data-id="<?php echo $list[123]["id"]; ?>" status="<?php echo $list[123]["status"]; ?>"><span>F</span></div>
+							<div class="<?php echo $list_status[$list[122]["status"]] ?>" data-id="<?php echo $list[122]["id"]; ?>" seat-type="<?php echo $list[122]["box_id"] ?>" status="<?php echo $list[122]["status"]; ?>"><span>E</span></div>
+							<div class="<?php echo $list_status[$list[123]["status"]] ?> margin-right-15em" data-id="<?php echo $list[123]["id"]; ?>" seat-type="<?php echo $list[123]["box_id"] ?>" status="<?php echo $list[123]["status"]; ?>"><span>F</span></div>
 						</div>
-						<div class="<?php echo $list_status_wheel[$list[124]["status"]] ?> flex-perfect-center" data-id="<?php echo $list[124]["id"]; ?>" status="<?php echo $list[124]["status"]; ?>"><i class="fa fa-wheelchair"></i><span>1</span></div>
+						<div class="<?php echo $list_status_wheel[$list[124]["status"]] ?> flex-perfect-center" data-id="<?php echo $list[124]["id"]; ?>" seat-type="<?php echo $list[124]["box_id"] ?>" status="<?php echo $list[124]["status"]; ?>"><i class="fa fa-wheelchair"></i><span>1</span></div>
 						<div class="flex-perfect-center" style="visibility: hidden;"><span class="floor-number">0</span></div>
-						<div class="<?php echo $list_status_wheel[$list[125]["status"]] ?> flex-perfect-center" data-id="<?php echo $list[125]["id"]; ?>" status="<?php echo $list[125]["status"]; ?>"><i class="fa fa-wheelchair"></i>
+						<div class="<?php echo $list_status_wheel[$list[125]["status"]] ?> flex-perfect-center" data-id="<?php echo $list[125]["id"]; ?>" seat-type="<?php echo $list[125]["box_id"] ?>" status="<?php echo $list[125]["status"]; ?>"><i class="fa fa-wheelchair"></i>
 							<span>2</span>
 						</div>
 					</div>
@@ -518,6 +518,11 @@
 						<option><?php echo "T-2(30-49)" ?></option>
 						<option><?php echo "T-1(20-29)" ?></option>
 					</select>
+				</div>
+
+				<div style="margin-top: 1em;">
+					<label for="price">料金</label>
+					<input id="price-change" type="number" style="width:245px; height: 2em; padding: 1em;" name="">
 				</div>
 
 				<!-- Allow form submission with keyboard without duplicating the dialog button -->
@@ -639,10 +644,15 @@
 
 	<div style="display: flex; justify-content: space-between; padding: 10px 50px; background-color: powderblue;">
 		<div>
-			<a style="font-size: 1.2rem;" class="margin-right-15em" target="_blank" href="<?php echo base_url('user-booth') ?>">ユーザー画面へ</a>
+			<a style="font-size: 1.2rem;" class="margin-right-15em" target="_blank" href="<?php echo base_url('user-booth-1') ?>">ユーザー画面へ-1</a>
+			<a style="font-size: 1.2rem;" class="margin-right-15em" target="_blank" href="<?php echo base_url('user-booth-2') ?>">ユーザー画面へ-2</a>
+			<a style="font-size: 1.2rem;" class="margin-right-15em" target="_blank" href="<?php echo base_url('user-booth-3') ?>">ユーザー画面へ-3</a>
 			<a id="csv_output" target="_blank" style="font-size: 1.2rem; padding: 0.2em 1em;" href="<?php echo base_url('csv-output') ?>">CSV出力</a>
-			<a id="setting_dlg" style="font-size: 1.2rem; padding: 0.2em 1em;">設定画面</a>
-			<a id="fee_time_dlg" style="font-size: 1.2rem; padding: 0.2em 1em;">料金時間設定</a>
+			<a href="<?php echo base_url('change-db-data') ?>"target="_blank" style="font-size: 1.2rem; padding: 0.2em 1em;cursor: pointer;">データ変更</a>
+			<a id="setting_dlg" style="font-size: 1.2rem; padding: 0.2em 1em;cursor: pointer;">設定画面</a>
+			<a id="fee_time_dlg" style="font-size: 1.2rem; padding: 0.2em 1em; cursor: pointer;">料金時間設定</a>
+			<a id="remove-all" style="font-size: 1.2rem; padding: 0.2em 1em; cursor: pointer;">全退出</a>
+
 			<a style="display:none;" id="receipt_print" target="_blank" style="font-size: 1.2rem; padding: 0.2em 1em;" href="<?php echo base_url('receipt-print') ?>">領収書印刷</a>
 			<a style="display:none;" id="receipt_page" target="_blank" style="font-size: 1.2rem; padding: 0.2em 1em;" href="<?php echo base_url('receipt-page') ?>">領収書</a>
 		</div>
@@ -659,7 +669,7 @@
 		});
 
 		var conn = new WebSocket('ws://localhost:8282');
-		var client = {
+		var client1 = {
 			user_id: 1,
 			recipient_id: 2,
 			type: 'socket',
@@ -667,17 +677,32 @@
 			message: null
 		};
 
+		var client2 = {
+			user_id: 1,
+			recipient_id: 3,
+			type: 'socket',
+			token: null,
+			message: null
+		};
+
 		conn.onopen = function(e) {
-			conn.send(JSON.stringify(client));
+			conn.send(JSON.stringify(client1));
+			conn.send(JSON.stringify(client2));
 		};
 
 		function sendData(sndData) {
 
-			client.message = sndData;
-			client.token = $('#token').text().split(': ')[1];
-			client.type = 'chat';
-			client.recipient_id = 2;
-			conn.send(JSON.stringify(client));
+			client1.message = sndData;
+			client1.token = $('#token').text().split(': ')[1];
+			client1.type = 'chat';
+			client1.recipient_id = 2;
+			conn.send(JSON.stringify(client1));
+
+			client2.message = sndData;
+			client2.token = $('#token').text().split(': ')[1];
+			client2.type = 'chat';
+			client2.recipient_id = 3;
+			conn.send(JSON.stringify(client2));
 		}
 
 		function GoInFullscreen(element) {
@@ -726,6 +751,30 @@
 
 		$('#setting_dlg').on('click', function() {
 			manager_dialog.dialog("open");
+		})
+
+		$('#remove-all').on('click', function() {
+			if (confirm('すべてのブースを削除してもよろしいですか？')) {
+				$.ajax({
+					url: '<?= base_url(); ?>set-sale-all-seat',
+					type: 'post',
+					dataType: 'json',
+					data: {
+					},
+					success: function(data) {
+						$('.room-entranced').attr('status', 0);
+						$('.room-entranced').removeClass("room-entranced");
+
+						showRemainSeats(data);
+
+						sndData = new Array(0, 3, data.perabo, data.perabo_pair, data.executive, data.premium);
+						sendData(sndData);
+					},
+					error: function(data) {
+						console.log("error");
+					}
+				});
+			}
 		})
 
 		$('#add_manager_btn').on('click', function() {
@@ -906,6 +955,9 @@
 		$('.entrance-room-btn').click(function() {
 			$('.room-selected').each(function(idx, element) {
 				if ($(element).attr('status') == '0') {
+					var seatType = $(element).attr('seat-type');
+					var seatTypeName = "#seat-" + seatType;
+					$('#price-change').val(parseInt($(seatTypeName).html().replace(/,/,'')));
 					dialog.dialog("open");
 				}
 			});
@@ -931,7 +983,6 @@
 
 							sndData = new Array($(element).attr('data-id'), 0, data.perabo, data.perabo_pair, data.executive, data.premium);
 							sendData(sndData);
-
 						},
 						error: function(data) {
 							console.log("error");
@@ -986,7 +1037,7 @@
 
 		var dialog = $("#dialog-form").dialog({
 			autoOpen: false,
-			height: 350,
+			height: 400,
 			width: 450,
 			modal: true,
 			buttons: {
@@ -997,6 +1048,7 @@
 							type: 'post',
 							data: {
 								'booth_id': $(element).attr('data-id'),
+								'price' : $('#price-change').val(),
 								'status': "1",
 								'gender': $('#gender').val(),
 								'age': $('#age').val()

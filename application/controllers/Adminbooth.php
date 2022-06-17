@@ -43,11 +43,25 @@ class Adminbooth extends CI_Controller
 		$this->load->view('admin_booth', $this->initPageData());
 	}
 
-	public function userBooth()
+	public function userBooth1()
 	{
 		$data['title'] = 'レンタルブース管理システム';
 		$this->load->view('header', $data);
-		$this->load->view('user_booth', $this->initPageData());
+		$this->load->view('user_booth1', $this->initPageData());
+	}
+
+	public function userBooth2()
+	{
+		$data['title'] = 'レンタルブース管理システム';
+		$this->load->view('header', $data);
+		$this->load->view('user_booth2', $this->initPageData());
+	}
+
+	public function userBooth3()
+	{
+		$data['title'] = 'レンタルブース管理システム';
+		$this->load->view('header', $data);
+		$this->load->view('user_booth3', $this->initPageData());
 	}
 
 	public function settingPage()
@@ -203,6 +217,7 @@ class Adminbooth extends CI_Controller
 		$status = $_POST['status'];
 		$gender = $_POST['gender'];
 		$age = $_POST['age'];
+		$price = $_POST['price'];
 
 		$age = $this->getAgeFromTitle($age);
 		$manager = $this->booth_model->get_current_user();
@@ -216,7 +231,7 @@ class Adminbooth extends CI_Controller
 		$mode = $this->isPriceType(mdate("%Y-%m-%d %H:%i:%s"));
 		
 		$booth_type = $temp['box_name'];
-		$price = $temp[$mode];
+		// $price = $temp[$mode];
 
 		// print_r($price);
 		// exit(0);
@@ -321,7 +336,18 @@ class Adminbooth extends CI_Controller
 		$booth_id = $this->input->post('booth_id');
 		$status = $this->input->post('status');
 
-		$this->booth_model->cancal_transaction($booth_id, $status);
+		$this->booth_model->cancel_transaction($booth_id, $status);
+
+		echo json_encode($this->getRemainSeatsCount());
+	}
+
+	public function updateTransaction()
+	{
+		$trac_id = $this->input->post('trac_id');
+		$booth_id = $this->input->post('booth_id');
+		$status = $this->input->post('status');
+
+		$this->booth_model->upate_transaction_status($trac_id, $booth_id, $status);
 
 		echo json_encode($this->getRemainSeatsCount());
 	}
@@ -343,6 +369,49 @@ class Adminbooth extends CI_Controller
 		$this->booth_model->set_sale_cancel_seat($booth_id);
 
 		echo json_encode($this->getRemainSeatsCount());
+	}
+
+	public function setSaleAllSeat() 
+	{
+		$this->booth_model->set_sale_all_seat();
+
+		echo json_encode($this->getRemainSeatsCount());
+	}
+
+	public function changeDBDate()
+	{
+		$data['title'] = "データ変更";
+
+		$date1 = mdate("%Y-%m-%d 00:00:00");
+		$date2 = mdate("%Y-%m-%d 23:59:59");
+
+		$data['page_data'] = $this->booth_model->get_transcation_list_by_date($date1, $date2);
+
+		$this->load->view('header', $data);
+		$this->load->view('setting_page', $data);
+	}
+
+	public function getTransactionFromDate()
+	{
+		$date = $this->input->post('date');
+		$month = $this->input->post('month') + 1;
+		$year = $this->input->post('year');
+
+		$strMonth = (string) $month;
+		$strDay = (string) $date;
+
+		if($month < 10) {
+			$strMonth = "0" . (string)$month;
+		}
+		if($date < 10) {
+			$strDay = "0" . (string)$date;
+		}
+		
+		$date1 = (string)$year . "-" . $strMonth . "-" . $strDay . " 00:00:00";
+		$date2 = (string)$year . "-" . $strMonth . "-" . $strDay . " 23:59:59";
+
+		echo json_encode($this->booth_model->get_transcation_list_by_date($date1, $date2));
+
 	}
 
 	public function outputCsv()

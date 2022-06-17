@@ -5,7 +5,7 @@
  * Date: 04/05/2019
  * Time: 09:04 PM
  */
-$config['jwt_key'] = 'mz3qnWttmhZ1ichPRnOVpkIbUx1xYdmu';
+$config['jwt_key'] = 'fDMYGYfdgzBGGRzfKwC6rFsuKycSga9x';
 
 /*Generated token will expire in 1 minute for sample code
 * Increase this value as per requirement for production

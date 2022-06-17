@@ -22,4 +22,10 @@
 	<script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js') ?>"></script>
 	<script src="<?php echo base_url('assets/js/jquery-ui-1.12.0.min.js') ?>"></script>
 
+	<script>
+	  $( function() {
+	    $( "#datepicker" ).datepicker().datepicker('setDate', 'today');;
+	  } );
+	</script>
+
 </head>
